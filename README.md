@@ -11,7 +11,7 @@ Scroll to an element vertically
 `        250`<br>
 `      );`<br>
 
-# touchmove (eventlistener = touchmove / scroll)
+# touchmove (eventlistener = touchend / scroll)
 
 `document.addEventListener('touchend', (evt) => {`<br>
 `  touchmove = false`<br>
