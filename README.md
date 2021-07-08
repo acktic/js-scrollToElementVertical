@@ -11,11 +11,9 @@ Scroll to an element vertically
 `        250`<br>
 `      );`<br>
 
-# touchmove
+# touchmove (eventlistener = touchmove / scroll)
 
 `document.addEventListener('touchend', (evt) => {`<br>
-`  touchendX = evt.changedTouches[0].screenX;`<br>
-`  handleSwipe();`<br>
 `  let isScrolling;`<br>
 `  // Clear our timeout throughout the scroll`<br>
 `  window.clearTimeout( isScrolling );`<br>
