@@ -23,3 +23,6 @@ Scroll to an element vertically
 `    // Run the callback`<br>
 `    touchmove = true;`<br>
 `  }, 4000);`<br>
+`},`<br>
+`{ passive: true }`<br>
+`);`<br>
