@@ -14,6 +14,7 @@ Scroll to an element vertically
 # touchmove (eventlistener = touchmove / scroll)
 
 `document.addEventListener('touchend', (evt) => {`<br>
+`  touchmove = false`<br>
 `  let isScrolling;`<br>
 `  // Clear our timeout throughout the scroll`<br>
 `  window.clearTimeout( isScrolling );`<br>
