@@ -4,7 +4,7 @@ Scroll to an element vertically
 
 # use
 
-`      scrollToElm(`<br>
+`      sideScrollToElm(`<br>
 `        touchmove,`<br>
 `        document.querySelector('.container'),`<br>
 `        document.querySelector('.element'),`<br>
